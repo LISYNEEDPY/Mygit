@@ -1,9 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[9]:
-
-
 import torch
 import torch.nn as nn
 import torch.optim as optim
@@ -120,35 +116,4 @@ def train_model(model, criterion, optimizer, num_epochs=300):
     print(f'\nBest Test Accuracy: {best_acc:.4f}')
 
 # 训练模型
-train_model(resnet, criterion, optimizer, num_epochs=10)
-
-
-# In[6]:
-
-
-dataloaders
-
-
-# In[7]:
-
-
-len(image_datasets['test'])
-
-
-# In[8]:
-
-
-len(image_datasets['train'])
-
-
-# In[ ]:
-
-
-
-
-
-# In[ ]:
-
-
-
-
+train_model(resnet, criterion, optimizer, num_epochs=10)#训练10个epoch

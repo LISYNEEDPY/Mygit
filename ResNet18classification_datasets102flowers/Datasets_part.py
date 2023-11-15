@@ -1,10 +1,5 @@
 #!/usr/bin/env python
 # coding: utf-8
-
-# In[2]:
-
-
-# encoding:utf-8
 import scipy.io
 import numpy as np
 import os
@@ -93,17 +88,3 @@ for tid in test:
     despath = os.path.join(class_path, base_path)
     print("despath:", despath)
     img.save(despath)
-
-
-
-# In[16]:
-
-
-help(os.listdir)
-
-
-# In[ ]:
-
-
-
-
