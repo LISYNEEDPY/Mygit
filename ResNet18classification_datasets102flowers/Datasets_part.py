@@ -24,7 +24,7 @@ for img in os.listdir("PATH/jpg"):#该地址为源数据图片的地址
     flower_dir.append(os.path.join("PATH/jpg", img))
 
 flower_dir.sort()
-des_folder_train = "train"#该地址可为新建的训练数据集文件夹的相对地址
+des_folder_train = "train"#该地址可为新建的训练数据集文件夹的地址
 for tid in train:
     #打开图片并获取标签
     img = Image.open(flower_dir[tid])
